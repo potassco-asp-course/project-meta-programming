@@ -1,4 +1,4 @@
-# META-PROGRAMMING
+# Meta-Programming
 
 Please modify [meta-normal.lp](./meta-normal.lp), [meta-constraints.lp](./meta-constraints) and [many.lp](./many.lp)  with your encodings.
 Every time you will push a new commit, your solution will be tested automatically.
