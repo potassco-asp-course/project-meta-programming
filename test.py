@@ -15,7 +15,7 @@ SOLUTIONS = "solutions/"
 SOLUTIONS_NORMAL = SOLUTIONS+"normal/"
 SOLUTIONS_CONSTRAINTS = SOLUTIONS+"constraints/"
 SOLUTIONS_MANY = SOLUTIONS+"many/"
-OPTIONS = ["--warn=no-atom-undefined", "--warn=no-file-included", "--warn=no-operation-undefined", "--warn=no-variable-unbounded", "--warn=no-global-variable"]
+OPTIONS = ["--warn=no-atom-undefined", "--warn=no-file-included", "--warn=no-operation-undefined", "--warn=no-global-variable"]
 
 def call_clingo_normal(input_names, timeout):
     cmd = [CLINGO, "--output=reify"] + OPTIONS + input_names
