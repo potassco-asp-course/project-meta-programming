@@ -1,6 +1,7 @@
 # Meta-Programming
 
-Please modify [meta-normal.lp](./meta-normal.lp), [meta-constraints.lp](./meta-constraints) and [many.lp](./many.lp)  with your encodings.
+Please modify [meta-normal.lp](./meta-normal.lp), [meta-constraints.lp](./meta-constraints) and [weighted-many.lp](./weighted-many.lp)  with your encodings.
+
 Every time you will push a new commit, your solution will be tested automatically.
 After a few minutes you will be able to see the result of the test in the **Actions** tab.
 You can get more information  about the result of the test by clicking on:

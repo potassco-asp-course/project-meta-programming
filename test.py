@@ -44,7 +44,7 @@ def call_clingo_constraints(input_names, timeout):
 def call_clingo_many(input_names, timeout):
     cmd = [CLINGO, "--output=reify"] + OPTIONS + input_names
     reified = run(cmd, capture_output=True)
-    cmd = [CLINGO, "--outf=2", "-", "many.lp", "0", "--opt-mode=optN", "--quiet=1", "-c m=3", "-c option=2"] + OPTIONS
+    cmd = [CLINGO, "--outf=2", "-", "weighted-many.lp", "0", "--opt-mode=optN", "--quiet=1", "-c m=3", "-c option=2"] + OPTIONS
     start = time.time()
     output = run(cmd, capture_output=True, input=reified.stdout, timeout=timeout)
     end = time.time()
