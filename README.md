@@ -4,6 +4,8 @@ You can find the instructions of the project in the file [meta-programming-proje
 
 To submit your solutions, please modify the files [meta-normal.lp](./meta-normal.lp), [meta-constraints.lp](./meta-constraints.lp) and [weighted-many.lp](./weighted-many.lp).
 
+You do not have to submit your translator `asp2dimacs`.
+
 Every time you push a new commit, your solution will be tested automatically.
 
 The timeout per instance is `60` seconds, and the actual command calls for the tests are:
