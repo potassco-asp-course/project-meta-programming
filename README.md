@@ -2,7 +2,7 @@
 
 You can find the instructions of the project in the file [meta-programming-project.ipynb](meta-programming-project.ipynb).
 
-To submit your solutions, please modify the files [meta-normal.lp](./meta-normal.lp), [meta-constraints.lp](./meta-constraints) and [weighted-many.lp](./weighted-many.lp).
+To submit your solutions, please modify the files [meta-normal.lp](./meta-normal.lp), [meta-constraints.lp](./meta-constraints.lp) and [weighted-many.lp](./weighted-many.lp).
 
 Every time you push a new commit, your solution will be tested automatically.
 The timeout per instance is `100` seconds, and
